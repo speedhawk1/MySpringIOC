@@ -1,0 +1,10 @@
+CREATE DATABASE IF NOT EXISTS dbtoday;
+
+DROP TABLE IF EXISTS dbtoday.users;
+CREATE TABLE dbtoday.users(
+  id INT PRIMARY KEY AUTO_INCREMENT,
+  name VARCHAR(255) NOT NULL ,
+  password VARCHAR(255) NOT NULL
+);
+
+SELECT * FROM dbtoday.users;SELECT * FROM dbtoday.users;
